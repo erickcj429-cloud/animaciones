@@ -1,0 +1,30 @@
+ body {
+        background: #111;
+        color: white;
+        font-family: Arial;
+        text-align: center;
+        padding-top: 20px;
+    }
+#board {
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(24, 15px);
+        width: fit-content;
+    }
+.cell {
+        width: 15px;
+        height: 15px;
+        background: transparent;
+    }
+.on {
+        background: white;
+    }
+button {
+        padding: 12px 25px;
+        font-size: 16px;
+        border: none;
+        background: #00aaff;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+    }
